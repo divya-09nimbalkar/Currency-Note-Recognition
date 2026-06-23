@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: currency_note_recognition
+Version: 0.1.0
+Summary: Currency note recognition using computer vision and deep learning
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow>=2.15.0
+Requires-Dist: opencv-python>=4.9.0.80
+Requires-Dist: matplotlib>=3.8.2
+Requires-Dist: numpy>=1.26.4
+
+# Currency Note Recognition
+
+## Overview
+Project description.
+
+## Objectives
+- Define business problem
+- Build solution
+- Evaluate results
+
+## Folder Structure
+- data/
+- notebooks/
+- src/
+- tests/
+- models/
+- docs/
+
+## Setup
+pip install -r requirements.txt
+
+## Run
+python src/main.py

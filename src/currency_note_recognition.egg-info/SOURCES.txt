@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/currency_note_recognition.egg-info/PKG-INFO
+src/currency_note_recognition.egg-info/SOURCES.txt
+src/currency_note_recognition.egg-info/dependency_links.txt
+src/currency_note_recognition.egg-info/requires.txt
+src/currency_note_recognition.egg-info/top_level.txt
