@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "currency_note_recognition"
+version = "0.1.0"
+description = "Currency note recognition using computer vision and deep learning"
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "tensorflow>=2.15.0",
+    "opencv-python>=4.9.0.80",
+    "matplotlib>=3.8.2",
+    "numpy>=1.26.4"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
