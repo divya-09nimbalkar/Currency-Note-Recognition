@@ -129,7 +129,7 @@ python src/app.py
 
 ---
 
-## 🧪 Testing
+##  Testing
 Run tests with:
 ```bash
 pytest tests/
