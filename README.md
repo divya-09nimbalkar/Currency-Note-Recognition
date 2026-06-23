@@ -16,28 +16,51 @@ It provides a full pipeline including preprocessing, training, inference, and a 
 CURRENCY_NOTE_RECOGNITION/
 │
 ├── data/                     # Dataset storage
+
 │   ├── raw/                  # Raw images (e.g., 20.jpg, 500.jpg)
+
 │   └── processed/            # Preprocessed images
+
 │
+
 ├── models/
+
 │       └── currency_model.h5 # Trained model file
+
 │
+
 ├── notebooks/                # Jupyter notebooks
+
 │   ├── train_currency_model.ipynb  # Model training workflow
+
 │   └── currency_note_demo.ipynb    # Demo and visualization
+
 │
+
 ├── src/                      # Source code
+
 │   ├── app.py                # Streamlit/FastAPI app entry point
+
 │   ├── inference.py          # Model inference logic
+
 │   ├── main.py               # CLI runner / orchestrator
+
 │   ├── model.py              # Model architecture & utilities
+
 │   └── preprocessing.py      # Image preprocessing pipeline
+
 │
+
 ├── tests/                    # Unit and integration tests
+
 │
+
 ├── .gitignore                # Git ignore rules
+
 ├── pyproject.toml            # Project metadata & dependencies
+
 ├── requirements.txt          # Python dependencies
+
 └── README.md                 # Project documentation
 
 ## Setup
